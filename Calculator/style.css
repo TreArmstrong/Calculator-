@@ -1,0 +1,146 @@
+.calculator {
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    background-color: #eaeaea;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.screen input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.number,
+.arithmetic,
+.clear,
+.decimal,
+.integer {
+    width: 100%;
+}
+
+.number {
+    grid-column: span 2;
+}
+
+.arithmetic,
+.clear {
+    background-color: #f7b500;
+    color: white;
+}
+
+.clear {
+    grid-column: span 2;
+}
+
+.decimal,
+.integer {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .calculator {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .calculator {
+        max-width: 600px;
+    }
+}
+
+
+.calculator {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    background-color: #eaeaea;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.screen input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.number {
+    grid-column: span 2;
+}
+
+.arithmetic {
+    background-color: #f7b500;
+    color: white;
+}
+
+.clear {
+    background-color: #f55656;
+    color: white;
+}
+
+.decimal {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+.integer {
+    background-color: #4d4d4d;
+    color: white;
+}
